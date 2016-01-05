@@ -1,0 +1,4 @@
+git add .
+git commit -m 'comment'
+git remote add coder7084 https://github.com/coder7084/pcriot.git
+git push -u coder7084 master
