@@ -1,0 +1,39 @@
+
+body
+{
+ background-color: #fefff8;
+}
+
+#main
+{
+ text-align:center;  
+}
+
+#inner-div
+{
+ text-align: left;
+ margin-left: 400px;
+ margin-top: 100px; 
+}
+
+#inner-div h2
+{
+ font-family: "Times New Roman", Times, serif;
+ font-size: 25px;
+ font-style: oblique;
+ font-weight: lighter;
+}
+
+@media only screen and (max-width: 1024px)
+{
+
+#inner-div
+{
+ text-align: left;
+ margin-left: 10px;
+ margin-top: 100px;
+ font-family: "Times New Roman", Times, serif;
+ font-size: 15px;
+ font-style: oblique;
+}
+}

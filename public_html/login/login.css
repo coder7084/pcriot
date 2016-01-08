@@ -1,0 +1,35 @@
+
+body
+{
+ background-color: #fefff8;
+}
+
+#main
+{
+ text-align:center; 
+ 
+}
+
+#inner-div
+{
+ text-align: center; 
+
+}
+
+#main label
+{
+ text-align: left;
+ width: 100px;
+}
+
+#main input
+{
+ text-align: left;
+ width: 150px;
+}
+
+#submit
+{
+ width: 55px;
+ height: 25px; 
+}
