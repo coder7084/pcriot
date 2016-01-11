@@ -57,6 +57,16 @@ font-family: Times;
 
 }
 
+#funcJS
+{
+text-align: left;
+margin-top: 30px;
+}
+
+#funcJS img
+{
+border-radius: 20px;
+}
 
 @media only screen and (max-width: 1024px)
 {
