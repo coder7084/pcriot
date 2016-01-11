@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html >
-  <head>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Login</title>    
+  <head>    
+    <meta charset="utf-8" />
+    <title>Home</title>    
     <link href="home.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js" ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.min.js" ></script>
     <script src="../libs/js/jquery.min.js" ></script>
     <script src="home.js"></script> 
+    <!-- <base href="/home"> --> 
   </head>
-  <body ng-app="home" ng-controller="MainCtrlHome">  
-      <div id='main'>      
-      <div id="inner-div"><h2>Teena Thomas</h2>
-      
-      </div>
-      </div>
+  <body ng-app="home" ng-controller="mainCtrlHome">  
   
+   <!-- HEADER AND NAVBAR -->
+        <header>
+            <nav class="nav-bar">
+            <div class="container">  
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#/" ><i class="fa fa-home fa-lg" title="Home"></i></a></li>                    
+                    <li><a href="https://www.linkedin.com/in/teenathomas" target="_blank"><i class="fa fa-linkedin-square fa-lg" title="LinkedIn"></i></a></li>
+                    <li><a href="https://github.com/coder7084" target="_blank"><i class="fa fa-github fa-lg" title="Github"></i></a></li>
+                    <li><a href="http://stackoverflow.com/users/1587858/teena-thomas" target="_blank"><i class="fa fa-stack-overflow fa-lg" title="Stack-overflow"></i></a></li>
+                    <li><a href="#contact"><i class="fa fa-comment fa-lg" title="Drop a message"></i></a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+  
+  
+      <div id='main'>      
+      <div id="inner-div"><h2><span id="firstname">Teena</span>Thomas</h2>
+          
+          
+          
+        <!-- angular templating -->
+        <!-- this is where content will be injected -->
+        <div ng-view></div> 
+        
+      </div>
+      </div>   
+
+   
 </body>
 </html>
